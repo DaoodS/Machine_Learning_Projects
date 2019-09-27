@@ -1,5 +1,9 @@
 ﻿Machine_learning_Projects.
 
+Feature Engineering - This folder contains different algorithms and techniques for feature engineering
+
+Feature Selection - This folder contains different algorithms and techniques of feature selection for machine learning models
+
 Project 1: Titanic Survival Exploration
 
 • Created decision functions to predict survival outcomes from the 1912 Titanic disaster based on each passenger’s features.
