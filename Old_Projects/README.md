@@ -1,4 +1,4 @@
-﻿### Project 1: Titanic Survival Exploration
+### Project 1: Titanic Survival Exploration
 
 • Created decision functions to predict survival outcomes from the 1912 Titanic disaster based on each passenger’s features. • Started with a simple algorithm and increased its complexity until I was able to accurately predict the outcomes for at least 80% of the passengers in the provided data.
 
