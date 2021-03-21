@@ -6,9 +6,9 @@ These are my Machine learning projects starting from the basics and moving furth
 
 • Identified the best sectors, countries, and a suitable investment type for making investments.
 
-### Project 2: Lending Club Case Study
+### Project 2: Lending Club Risk Analysis
 
-• Loan default risk analysis
+• Predict default/non-default customers
 
 ### Project 3: Car Price Prediction
 
@@ -18,6 +18,6 @@ These are my Machine learning projects starting from the basics and moving furth
 
 • Churn prediction model for telecom sector
 
-### Project 4: House Price Prediction
+### Project 5: House Price Prediction
 
 • Regression model for house price prediction
