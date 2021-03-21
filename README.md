@@ -10,6 +10,10 @@ These are my Machine learning projects starting from the basics and moving furth
 
 • Loan default risk analysis
 
+### Project 3: Car Price Prediction
+
+• Predict price of the car
+
 ### Project 4: Telecom Churn Prediction
 
 • Churn prediction model for telecom sector
