@@ -21,3 +21,16 @@ These are my Machine learning projects starting from the basics and moving furth
 ### Project 5: House Price Prediction
 
 • Regression model for house price prediction
+
+### Project 6: POS Tagging
+
+• HMM based POS Tagging
+
+### Project 7: Restaurant Search Chatbot
+
+• Conversational chatbot build using RASA framework to find Restaurants in Tier-1 Cities using Zomato API and deployed on Slack Bot.
+
+### Project 10: Churn Prediction
+Hackerearth Contest : https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-customer-churn/
+
+• Model for predicting churn
