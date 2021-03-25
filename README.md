@@ -34,3 +34,8 @@ These are my Machine learning projects starting from the basics and moving furth
 Hackerearth Contest : https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-customer-churn/
 
 • Model for predicting churn
+
+### Project 11: Tabular Playground Series - Mar 2021
+Kaggle Prediction Competition : https://www.kaggle.com/c/tabular-playground-series-mar-2021
+
+• Category prediction model on complex tabular data
