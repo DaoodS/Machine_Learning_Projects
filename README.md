@@ -30,6 +30,14 @@ These are my Machine learning projects starting from the basics and moving furth
 
 • Conversational chatbot build using RASA framework to find Restaurants in Tier-1 Cities using Zomato API and deployed on Slack Bot.
 
+### Project 8: Artificial Neural Network
+
+• A custom aritificial neural network using numpy
+
+### Project 9: Gesture Recognition
+
+• CNN+RNN based gestrure recognition model to help users control the television without using a remote
+
 ### Project 10: Churn Prediction
 Hackerearth Contest : https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-customer-churn/
 
