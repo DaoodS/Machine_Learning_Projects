@@ -47,3 +47,7 @@ Hackerearth Contest : https://www.hackerearth.com/challenges/competitive/hackere
 Kaggle Prediction Competition : https://www.kaggle.com/c/tabular-playground-series-mar-2021
 
 • Category prediction model on complex tabular data
+
+### Project 12: Sentiment Based Recommendation System
+
+• Recommendation system based on sentiments extracted from the reviews and product ratings given by the customers
