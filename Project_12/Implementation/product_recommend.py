@@ -50,13 +50,14 @@ class Recommendation:
 	        words = [word for word in words if word not in stopwords.words("english")]
 	        words = [stemmer.stem(word) for word in words]
 	        document = " ".join(words)
-	        return df['proc_reviews_text']
+	        return document
 	    
 	    df['proc_reviews_text'] = df['reviews_text'].apply(preprocess)
-	    return df
+	    return df['proc_reviews_text']
 
 	def recommend_products(self, user_id):
-		print("User name: ".format(le_usr.inverse_transform([user_id])))
+		print("User name : {}".format(le_usr.inverse_transform([user_id])[0]))
+		print("Fetching Recommendations....")
 
 		d = final_model.loc[user_input].sort_values(ascending=False)[0:20].to_frame()
 		d = d.reset_index()
@@ -70,8 +71,8 @@ class Recommendation:
 		filter_df = filter_df[['name', 'reviews_title', 'reviews_text']]
 
 		filter_df['proc_reviews_text'] = self.process_review_pipeline(filter_df)
-		tf = tf_model.transform(filter_df[['proc_reviews_text']])
-		tf_df = pd.DataFrame(tf.toarray(), columns=tfidf_vectorizer.get_feature_names())
+		tf = tf_model.transform(filter_df['proc_reviews_text'])
+		tf_df = pd.DataFrame(tf.toarray(), columns=tf_vect.get_feature_names())
 
 		preds = xgtf_model.predict_proba(tf_df)
 		best_preds = np.asarray([np.argmax(line) for line in preds])
@@ -84,7 +85,7 @@ class Recommendation:
 
 
 
-if __name___=='__main__':
+if __name__=='__main__':
 	user_input = int(input("Enter your user name: "))
 	recom_obj = Recommendation()
 	print(recom_obj.recommend_products(user_input))
