@@ -45,13 +45,7 @@ These are my Machine learning projects starting from the basics and moving furth
 ### Project 10: Churn Prediction
 Hackerearth Contest : https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-customer-churn/
 
-• Model for predicting churn
 
-### Project 11: Tabular Playground Series - Mar 2021
-Kaggle Prediction Competition : https://www.kaggle.com/c/tabular-playground-series-mar-2021
+### Project 11: Sentiment Based Recommendation System
 
-• Category prediction model on complex tabular data
-
-### Project 12: Sentiment Based Recommendation System
-
-• Recommendation system based on sentiments extracted from the reviews and product ratings given by the customers
+• Recommendation system based on sentiments extracted from the reviews and user based recommendations from product ratings given by the customers
